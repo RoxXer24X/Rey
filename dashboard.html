@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DASHBOARD</title>
+</head>
+<style>
+	body{
+	  margin:0;
+		background-color:tan;
+	}
+	.header{
+		text-align:center;
+	}
+	nav{
+		height:100px;
+		
+	}
+	li{
+		border-bottom: 1px solid black;
+	}
+	li a{
+		   display: block;
+  color: white	;
+  padding: 15px;
+  text-decoration: none;
+ 	}
+	ul{
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #5C4033;
+  position: fixed;
+  height: 100%;
+   border: 1px solid #555;
+	}
+  img{
+  	position:relative;
+    left:130px;
+    border-bottom:tan;
+  }
+  h2{
+  	position:absolute;
+  	top:40px;
+  	font-size:32px;
+  }
+  #STAT{
+width:200px;
+height:75px;
+border:4px solid #5C4033;
+border-radius:25px;
+font-size:20px;
+float:left;
+padding:5px;
+text-align:center;
+  }
+ .STA{
+ 	display:flex;
+ 	justify-content:space-around;
+ }
+ .GC{
+ 	 float:left;
+ 	 width:47%;
+  padding-left:20px;
+ 	}
+.GC > img{
+left:5px;
+}
+.GC > h3{
+	font-size:23px;
+}
+</style>
+<body>
+	<nav>
+	<ul>
+		 <img src="bag(1).png" width="100px" height="100px">
+		 <hr style="color:black;background-color:black;">
+		<li><a href="index.html">HOME</a></li>
+		<li><a style="color:brown;
+     background-color:tan;" href="#">DASHBOARD</a></li>
+		<li><a href="#">EMPLOYEES</a></li>
+		<li><a href="#">ATTENDANCE</a></li>
+		<li><a href="#">REPORTS</a></li>
+	</ul>
+</nav>
+<div style="margin-left:25%;padding:1px 16px;height:100px;">
+ <h2>DASHBOARD</h2>
+ <hr style="height:2px;border-width:0;color:black;background-color:black;width:101%;" >
+ <div class="STA">
+ <div id="STAT">TOTAL EMPLOYEES<br>50</div>
+ <div id="STAT">ATTENDANCE RATE<br>90%</div>
+ <div id="STAT">TASKS<br>5</div>
+ <div id="STAT">LEAVES<br>0</div>
+ </div>
+  <br>
+  <div class="GC">
+ <h3>Monthly Employee Join by Gender</h3>
+ <img src="HRMG.png" width="353px" height='406px'>
+</div>
+ <div class="GC">
+  <h3>Age Distribution of Employees</h3>
+  <img src='HRMG2.png' width="320px" height="361px">
+</div>
+</div>
+</div>
+</body>
+</html>
